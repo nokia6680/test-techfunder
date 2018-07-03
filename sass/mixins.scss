@@ -1,0 +1,26 @@
+@mixin container {
+    min-width: $phones;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    @media (min-width: $tablets) {
+      width: auto;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    @media (min-width: $netbooks) {
+      width: auto;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    @media (min-width: $notebooks){
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+  }
