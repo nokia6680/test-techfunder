@@ -1,4 +1,5 @@
 $phones: 320px;
+$smartphones: 480px;
 $tablets: 768px;
 $netbooks: 996px;
 $notebooks: 1440px;
@@ -7,9 +8,14 @@ $bg: #ffffff;
 
 $header-bg: #4c6269;
 $subtitle-bg: #4c6269;
+$btn-bg: #880000;
+
+$active-bullet: #e2001a;
+$standby-bullet: #262628;
 
 $text-black: #262628;
 $text-white: #ffffff;
+$text-darkred: #880000;
 
 $base-font: "Roboto", sans-serif;
 $secondary-font: "Roboto Cond", sans-serif;

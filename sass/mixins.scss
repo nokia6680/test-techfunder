@@ -3,7 +3,14 @@
     width: auto;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
+
+    @media (min-width: $smartphones) {
+      width: auto;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
 
     @media (min-width: $tablets) {
       width: auto;

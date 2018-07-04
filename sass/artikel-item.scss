@@ -6,8 +6,22 @@
   align-items: flex-start;
 
   text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 300px;
+    margin-top: -15px;
+    padding-left: 30px;
+  }
 
   &__type {
+    align-self: flex-start;
+
     font: {
       family: $base-font;
       size: $subtitle-text;
@@ -15,12 +29,14 @@
     }
 
     color: $text-white;
-    line-height: normal;
+    line-height: 30px;
     letter-spacing: 0.2px;
 
     background-color: $subtitle-bg;
     padding-left: 4px;
     padding-right: 4px;
+
+    text-transform: uppercase;
   }
 
   &__title {
@@ -46,9 +62,34 @@
     line-height: 22px;
   }
 
+  &__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 300px;
+    margin-top: 25px;
+  }
+
+  &__more {
+    font: {
+      family: $base-font;
+      weight: 700;
+      size: 14px;
+    }
+
+    color: $text-black;
+    line-height: normal;
+    letter-spacing: 0.5px;
+
+    margin-left: 15px;
+  }
+
   &__zeit {
     @extend .artikel-item__description;
 
     align-self: flex-end;
+    margin-right: 15px;
   }
 }

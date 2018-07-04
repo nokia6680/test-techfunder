@@ -1,6 +1,6 @@
 .artikel {
   @include container;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -11,5 +11,7 @@
 
     color: $text-black;
     line-height: 33px;
+
+    margin-left: 20px;
   }
 }

@@ -42,7 +42,7 @@
 		<section class="page-main__artikel artikel">
 			<h2 class="artikel__title">Artikel</h2>
 			<!--Desktop wrapper without slider-->
-			<div class="artikel__list artikel-list artikel-list__desktop">
+			<div class="artikel__list artikel-list artikel-list--desktop">
 				<a class="artikel-list__item artikel-item" href="#" target="_blank">
 					<img class="artikel-item__pic" src="img/artikel-1.jpg" />
 					<b class="artikel-item__type">Innovation</b>
@@ -81,48 +81,84 @@
 				</a>
 			</div>
 			<!--wrapper with slider for mobile-->
-			<div class="artikel__list artikel-list artikel-list__mobile">
+			<div class="artikel__list artikel-list artikel-list--mobile">
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
-					  <a class="swiper-slide">
-							<img class="artikel-item__pic" src="img/artikel-1.png" />
-							<b class="artikel-item__type">Innovation</b>
-							<h3 class="artikel-item__title">Lorem ipsum consectetur addolor sit amet.</h3>
-							<span class="artikel-item__zeit">Lesezeit 3'</span>
+					  <a class="swiper-slide artikel-item--slide" href="#">
+							<img class="artikel-item__pic" src="img/artikel-1.jpg" />
+							<div class="artikel-item__info">
+								<b class="artikel-item__type">Innovation</b>
+								<h3 class="artikel-item__title">Lorem ipsum consectetur addolor sit amet.</h3>
+								<p class="artikel-item__description">
+									Lorem ipsum consectetur addolor sit amet, consectetur ipsum dolor sit amet.
+								</p>
+							</div>
+							<div class="artikel-item__footer">
+								<span class="artikel-item__more">Mehr erfahren</span>
+								<span class="artikel-item__zeit">Lesezeit 3'</span>
+							</div>
 						</a>
-						<a class="swiper-slide">
-							<img class="artikel-item__pic" src="img/artikel-2.png" />
-							<b class="artikel-item__type">Innovation</b>
-							<h3 class="artikel-item__title">Lorem ipsum consectetur addolor sit amet.</h3>
-							<span class="artikel-item__zeit">Lesezeit 3'</span>
+						<a class="swiper-slide artikel-item--slide" href="#">
+							<img class="artikel-item__pic" src="img/artikel-2.jpg" />
+							<div class="artikel-item__info">
+								<b class="artikel-item__type">Innovation</b>
+								<h3 class="artikel-item__title">Lorem ipsum consectetur addolor sit amet.</h3>
+								<p class="artikel-item__description">
+									Lorem ipsum consectetur addolor sit amet, consectetur ipsum dolor sit amet.
+								</p>
+							</div>
+							<div class="artikel-item__footer">
+								<span class="artikel-item__more">Mehr erfahren</span>
+								<span class="artikel-item__zeit">Lesezeit 3'</span>
+							</div>
 						</a>
-						<a class="swiper-slide">
-							<img class="artikel-item__pic" src="img/artikel-3.png" />
-							<b class="artikel-item__type">Innovation</b>
-							<h3 class="artikel-item__title">Lorem ipsum consectetur addolor sit amet.</h3>
-							<span class="artikel-item__zeit">Lesezeit 3'</span>
+						<a class="swiper-slide artikel-item--slide" href="#">
+							<img class="artikel-item__pic" src="img/artikel-1.jpg" />
+							<div class="artikel-item__info">
+								<b class="artikel-item__type">Innovation</b>
+								<h3 class="artikel-item__title">Lorem ipsum consectetur addolor sit amet.</h3>
+								<p class="artikel-item__description">
+									Lorem ipsum consectetur addolor sit amet, consectetur ipsum dolor sit amet.
+								</p>
+							</div>
+							<div class="artikel-item__footer">
+								<span class="artikel-item__more">Mehr erfahren</span>
+								<span class="artikel-item__zeit">Lesezeit 3'</span>
+							</div>
 						</a>
-						<a class="swiper-slide">
-							<img class="artikel-item__pic" src="img/artikel-4.png" />
-							<b class="artikel-item__type">Innovation</b>
-							<h3 class="artikel-item__title">Lorem ipsum consectetur addolor sit amet.</h3>
-							<span class="artikel-item__zeit">Lesezeit 3'</span>
+						<a class="swiper-slide artikel-item--slide" href="#">
+							<img class="artikel-item__pic" src="img/artikel-1.jpg" />
+							<div class="artikel-item__info">
+								<b class="artikel-item__type">Innovation</b>
+								<h3 class="artikel-item__title">Lorem ipsum consectetur addolor sit amet.</h3>
+								<p class="artikel-item__description">
+									Lorem ipsum consectetur addolor sit amet, consectetur ipsum dolor sit amet.
+								</p>
+							</div>
+							<div class="artikel-item__footer">
+								<span class="artikel-item__more">Mehr erfahren</span>
+								<span class="artikel-item__zeit">Lesezeit 3'</span>
+							</div>
 						</a>
 					</div>
 					<!-- Add Pagination -->
+					<!-- Add Arrows -->
+					<div class="swiper-button-prev"></div>
 					<div class="swiper-pagination"></div>
+					<div class="swiper-button-next"></div>
 				</div>
 			</div>
 			<!--Digitalisierung part-->
-			<div class="digital__wrapper">
+			<div class="artikel__digital digital">
 				<div class="digital__info digital-info">
 					<h2 class="digital-info__title">#Digitalisierung</h2>
 					<p class="digital-info__description">
 						Hier finden Sie lorem ipsum dolor sit amet, consequituur atque quibus et ceterandi fuitans  ipsum dolor sit amet, consequituur atque quibus et ceterandi fuitans.
 					</p>
-					<a class="digital__btn page-btn" href="#">
-						<i class="fa fa-menu fa-menu--red"></i>
-						<span class="page-btn__text">Mehr aus der Kategorie</span>
+					<a class="digital-info__btn" href="#">
+						<div class="digital-info__square">
+						</div>
+						<span class="digital-info__text">Mehr aus der&nbsp;Kategorie</span>
 					</a>
 				</div>
 				<div class="digital__artikel digital-artikel">
