@@ -1,0 +1,15 @@
+.artikel {
+  @include container;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  &__title {
+    @extend .header-intro__title;
+
+    color: $text-black;
+    line-height: 33px;
+  }
+}
